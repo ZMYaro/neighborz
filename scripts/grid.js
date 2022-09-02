@@ -15,7 +15,7 @@ for (var r = 0; r < grid.height; r++) {
 
 window.onload = function () {
 	document.getElementById('aboutBtn').onclick = function (e) {
-		alert('NeighborZ explores prejudice and segregation based on tolerence of those we perceive as different from us.  As tolerance of neighbors who are different decreases, AIs fairly consistently end up clustering into segregated neighborhoods, sometimes even when they are 70% or 80% tolerant.');
+		alert('NeighborZ explores prejudice and segregation based on tolerence of those we perceive as different from us.  As tolerance of neighbors who are different decreases, AIs fairly consistently end up clustering into segregated neighborhoods, sometimes even when they are 70% or 80% tolerant.  Additionally, simply making them more tolerant does not, on its own, motivate them to integrate if they are already segregated.');
 	}
 	document.getElementById('widthInput').oninput = 
 	document.getElementById('heightInput').oninput = function () {
